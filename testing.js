@@ -17,3 +17,8 @@ rainbow.forEach((color) => {
 function randomNum() {
   return Math.floor(Math.random() * 10) + 1;
 }
+
+// generate a function that returns a random number between 1 and 100
+function randomNum100() {
+  return Math.floor(Math.random() * 100) + 1;
+}
